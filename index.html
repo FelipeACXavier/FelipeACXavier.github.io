@@ -1,84 +1,232 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Felipe Xavier</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
-    <style>
-      body,h1 {
-        font-family: "Raleway", sans-serif
-      }
-      body, html {
-        height: 100%
-      }
-      .bgimg::before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backdrop-filter: blur(8px);
-      }
-      .bgimg {
-        filter: brightness(70%);
-        /* background-image: url('https://wallpaperaccess.com/full/5346020.jpg'); */
-        background-image: url('assets/download.jpg');
-        min-height: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-      }
-      .waviy {
-        position: relative;
-      }
-      .waviy span {
-        position: relative;
-        display: inline-block;
-        font-size: 40px;
-        color: #fff;
-        text-transform: uppercase;
-        animation: flip 4s infinite;
-        animation-delay: calc(.1s * var(--i));
-      }
-      @keyframes flip {
-        0%,80%{
-          transform: rotateX(360deg);
-        }
-      }
-    </style>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <div class="bgimg"></div>
-    <div class="w3-display-container w3-animate-opacity w3-text-white">
-      <div class="w3-display-middle">
-        <h1 class="w3-jumbo waviy main-text">
-          <span style="--i:1">C</span>
-          <span style="--i:2">O</span>
-          <span style="--i:3">M</span>
-          <span style="--i:4">I</span>
-          <span style="--i:5">N</span>
-          <span style="--i:6">G</span>
-          <span> </span>
-          <span style="--i:7">A</span>
-          <span style="--i:8">T</span>
-          <span> </span>
-          <span style="--i:9">S</span>
-          <span style="--i:10">O</span>
-          <span style="--i:11">M</span>
-          <span style="--i:12">E</span>
-          <span> </span>
-          <span style="--i:13">P</span>
-          <span style="--i:14">O</span>
-          <span style="--i:15">I</span>
-          <span style="--i:16">N</span>
-          <span style="--i:17">T</span>
-        </h1>
-        <hr class="w3-border-grey" style="margin:auto; width:50%">
+    <div class="wrapper clearfix">
+      <div class="left">
+        <div class="name-hero">
+          <div class="center">
+            <div class="me-img"></div>
+            <div class="name-text">
+              <h1>Felipe de Azeredo Coutinho Xavier</h1>
+
+              <div class="contact-info">
+                <p class="with-image"><img src="assets/map_icon.png" />Anton Philipslaan 79, Eindhoven, Netherlands</p><br>
+                <p class="with-image"><img src="assets/phone_icon.jpg" />+31 6 3883-9898</p><br>
+                <p class="with-image"><img src="assets/mail_icon.png" /><a href="mailto:felipeacx@gmail.com">felipeacx@gmail.com</a></p><br>
+                <p class="with-image"><img src="assets/linkedin_icon.png" /><a href="https://www.linkedin.com/in/felipe-xavier-040643153/" target=”_blank”>Felipe Xavier</a></p><br>
+                <p class="with-image"><img src="assets/github.jpg" /><a href="https://github.com/FelipeACXavier" target=”_blank”>FelipeACXavier</a></p>
+              </div>
+              <div class="about-me">
+                I am a 27-year-old Brazilian currently pursuing a PhD under the Cynergy4MIE project
+                for Society 5.0. My work focuses on combining low-code platforms, embedded systems,
+                software architecture, and formal verification. I have recently finished my Master's
+                thesis focused on developing a method for rapid generation of interfaces for
+                Digital Twins, which was approved at the MODELS 2024 conference. I have 5+ years
+                of work experience focused on embedded systems for logistics automation and FPGA
+                design for motor controllers and gate drivers. I am self-motivated, reliable, responsible,
+                hard-working, and have ample teamwork experience.
+              </div>
+              <div class="skills">
+                <h2>Personal skills</h2>
+                <ul>
+                  <li>Goal-oriented work</li>
+                  <li>Teamwork</li>
+                  <li>Motivated and collaborative</li>
+                  <li>Prioritization and planning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="inner">
+          <section class="experience">
+            <h1>Work experience<hr></h1>
+            <h2><em>Dec 2021 - Sep 2024</em> | Bin processing solution</h2>
+            <h4>Prodrive technologies</h4>
+            <ul>
+              <li>Lead software engineer responsible for the architecture and implementation of key features to allow 24/7 operation with other machines and humans.</li>
+              <li>Development of software tools to facilitate the production and setup of the machines on the production floor.</li>
+              <li>Development of friendly web UI for easy interaction with the machines.</li>
+            </ul>
+
+            <h2><em>Aug 2020 - Jan 2021</em> | High-voltage gate-driver</h2>
+            <h4>Prodrive technologies</h4>
+            <ul>
+              <li>Improvement of the design to handle faster and more stable switching rates.</li>
+              <li>Design and implementation of features required to test high-voltage drivers for MRI machines.</li>
+              <li>General improvements and bug fixes.</li>
+            </ul>
+
+            <h2><em>Mar 2019 - Dec 2021</em> | AMR solution</h2>
+            <h4>Prodrive technologies</h4>
+            <ul>
+              <li>Design and implementation of an overhanging and transparent obstacle detection sensor to the existing architecture of the AMR.</li>
+              <li>Integration of the safe and non-safe controllers.</li>
+              <li>Integration of an automatic door controller into the existing fleet management system to allow the AMRs to work 24/7 with secure buildings.</li>
+              <li>General improvements and bug fixes.</li>
+            </ul>
+
+            <h2><em>Aug 2017 - Jan 2020</em> | Project Varpulis (Multi-Rotor Robotics)</h2>
+            <h4>Fontys University of Applied Sciences / Dutch Ministry of Defence</h4>
+            <ul>
+              <li>Design of electronic and mechanical parts of a heavy-lifting multi-rotor.</li>
+              <li>Initial conception of an automatic landing and picking system.</li>
+              <li>Design and implementation of the flight and motor controllers.</li>
+            </ul>
+
+            <h2><em>Mar 2015 - May 2016</em> | Volunteer Teacher</h2>
+            <h4>Casa de Ismael - Lar da Criança (SGAN 913, Conj. G. Brasília, Brazil)</h4>
+            <ul>
+              <li>Multi-subject teacher for children from 6th to 12th grade.</li>
+              <li>Help the orphanage take care of the children during afternoons.</li>
+            </ul>
+
+          </section>
+          <section class="publications">
+            <h1>Publications<hr></h1>
+            <h2><em>Sep 2024</em> | MODELS</h2>
+            Felipe Xavier, David A. Manrique Negrin, and Loek Cleophas. 2024. Rapid interface generation method
+            for heterogeneous models in Digital twins. In ACM/IEEE 27th International Conference on Model Driven
+            Engineering Languages and Systems (MODELS Companion '24), September 22-27, 2024, Linz, Austria. ACM,
+            New York, NY, USA, 10 pages. https://doi.org/10.1145/3652620.3688218
+
+          </section>
+          <section>
+            <h1>Education<hr></h1>
+            <h2><em>Aug 2024-Present</em> | PhD Computer Science</h2>
+            <h4>Eindhoven University of Technology, Eindhoven, Netherlands</h4>
+
+            <h2><em>Sep 2022 -Aug 2024</em> | MSc Embedded systems</h2>
+            <h4>Eindhoven University of Technology, Eindhoven, Netherlands</h4>
+            <ul>
+              <li><em>Seminar:</em> Multilingual system dependencies: A literature review</li>
+              <li><em>Thesis:</em> Rapid interface generation for heterogeneous models in digital twins</li>
+            </ul>
+
+            <h2><em>Sep 2019-Jan 2020</em> | Pre-Master Embedded systems</h2>
+            <h4>Eindhoven University of Technology, Eindhoven, Netherlands</h4>
+
+            <h2><em>Sep 2018-Jan 2019</em> | Pre-Master Electrical Engineering</h2>
+            <h4>Eindhoven University of Technology, Eindhoven, Netherlands</h4>
+
+            <h2><em>Sep 2016 -July 2020</em> | BSc Mechatronics Engineering</h2>
+            <h4>Fontys University of Applied Sciences, Eindhoven, Netherlands</h4>
+            <ul>
+              <li><em>Thesis:</em> Overhanging and transparent obstacle detection for autonomous mobile robots</li>
+            </ul>
+
+          </section>
+          <section>
+            <h1>Technical Skills<hr></h1>
+
+            <h2>Language</h2>
+            <table>
+              <tr>
+                <td>Portuguese</td>
+                <td>English</td>
+                <td>Spanish</td>
+                <td>Dutch</td>
+                <td>French</td>
+              </tr>
+              <tr>
+                <td>Native</td>
+                <td>C2</td>
+                <td>A2</td>
+                <td>A2</td>
+                <td>A1</td>
+              </tr>
+            </table>
+
+            <h2>Computer and tools</h2>
+            <ul>
+              <li>C, C++, Python, MATLAB, Java, C#, VHDL, and Javascript</li>
+              <li>Certified Solidworks Associate (CSWA)</li>
+              <li>Machine learning, machine vision, language creation, and code generation</li>
+              <li>Knowledge of the Microsoft Office pack, and LaTeX</li>
+              <li>Lots of experience with Linux and embedded Linux (Buildroot, and BusyBox) development</li>
+            </ul>
+
+            <h2>Other</h2>
+            <ul>
+              <li>Experience with turning and milling machines, and 3d printers.</li>
+              <li>Flexible, broadly interested, capable of working under pressure, and eager to learn.</li>
+            </ul>
+
+          </section>
+          <section>
+            <h1>Free-time<hr></h1>
+
+            <h2>Projects</h2>
+
+            <div class="project">
+              <h4><a href="https://github.com/FelipeACXavier/IntrusionGame">Intrusion game simulator</a></h4>
+
+              This project evaluates the framework proposed in <a href="https://ieeexplore.ieee.org/document/7898493">"Physical Intrusion
+              Games—Optimizing Surveillance by Simulation and Game Theory"</a>, focusing on the second-phase intrusion game. The goal is to
+              verify the findings found in the aforementioned paper by recreating the simulations using the information provided, in addition
+              to interpreting the effects of adjusting certain parameters.
+            </div>
+
+            <div class="project">
+              <h4><a href="https://github.com/FelipeACXavier/Nactg/tree/main/FinalProject">NACTG</a></h4>
+
+              NACTG (Not A C Test Generator), pronounced as "nac”, is a language that facilitates C++ unit test generation. It was developed
+              using <a href="https://www.rascal-mpl.org">Rascal</a> with the <a href="https://www.rascal-mpl.org/docs/Packages/Clair/">Clair</a> extension. The idea is that the user inputs the path to a class header file and sets the
+              expected input and outputs for the desired method. The language will, based on these inputs, generate the necessary unit tests.
+              The generated tests utilise the gtest framework, a well-known and mature unit-test framework made by Google.
+            </div>
+
+            <div class="project">
+              <h4><a href="https://github.com/FelipeACXavier/OutloudDjBot">Outloud DJ bot</a></h4>
+
+              A simple bot that allows the user to automatically cast votes in the Outloud DJ app. Very fun for the user but not very democratic.
+            </div>
+
+            <div class="project">
+              <h4><a href="https://github.com/FelipeACXavier/linalg">LinAlg</a> and <a href="https://github.com/FelipeACXavier/CppHelpers">CppHelpers</a></h4>
+
+              LinAlg is a simple vector and matrix library inspired by p5.js's Vector. The support is focused on 2d and 3d vectors but most methods are
+              also available for bigger vectors. CppHelpers is a collection of C++ libraries used to help me code C++ projects. It has support for
+              things such as logging, optional returns, string operations, and thread safe types. These libraries were initially created to help me
+              with my <a href="https://github.com/FelipeACXavier/SDLExperiments">SDL experiments</a>
+            </div>
+
+            <h2>Open-source contributions</h2>
+
+            <div class="project">
+              <h4><a href="https://github.com/FelipeACXavier/yakuake">Yakuake</a></h4>
+
+              Improved movement across terminals in split mode. Yakuake is now able to focus on terminals in all directions instead of just
+              cycling between previous and next. I also added support for shrinking terminals so that terminals in split mode can "grow" its
+              neighbour.
+            </div>
+
+            <div class="project">
+              <h4><a href="https://github.com/FelipeACXavier/flameshot">Flameshot</a></h4>
+
+              Added an OCR tool to Flameshot so the user is able to extract unselectable text from the screen.
+            </div>
+
+            <h2>Hobbies</h2>
+            <ul>
+              <li>Reading</li>
+              <li>Travelling</li>
+              <li>Playing team-base video games</li>
+              <li>Board games</li>
+            </ul>
+
+          </section>
+        </div>
       </div>
     </div>
-
   </body>
 </html>
