@@ -1,6 +1,10 @@
-*, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
- }
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 html {
 	font-size: 100%;
@@ -21,7 +25,7 @@ body {
 }
 
 h1 {
-	color: rgba(0,0,0,.75);
+	color: rgba(0, 0, 0, .75);
 }
 
 .wrapper {
@@ -29,8 +33,8 @@ h1 {
 }
 
 .left {
-	background-color: rgba(0,0,0,.025);
-	border-right: 1px solid rgba(0,0,0,.05);
+	background-color: rgba(0, 0, 0, .025);
+	border-right: 1px solid rgba(0, 0, 0, .05);
 	float: right;
 	height: 100%;
 	margin-left: -1px;
@@ -49,7 +53,7 @@ h1 {
 
 
 .name-hero {
-	background: rgba(0,0,0,.001);
+	background: rgba(0, 0, 0, .001);
 	bottom: 0;
 	height: 100vh;
 	position: relative;
@@ -57,19 +61,19 @@ h1 {
 }
 
 .name-hero .center {
-  position: absolute;
-  margin: 0;
-  top: 50%;
-  left: 50%;
-  width: 85%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	width: 85%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .me-img {
-	background: url(assets/profile.jpeg) no-repeat center center ;
+	background: url(assets/profile.jpeg) no-repeat center center;
 	background-size: 100%;
-  background-position: 0px 0px;
+	background-position: 0px 0px;
 	border-radius: 100%;
 	width: 250px;
 	height: 250px;
@@ -84,14 +88,14 @@ h1 {
 }
 
 .name-hero h1 em {
-	color: rgba(0,0,0,.3);
+	color: rgba(0, 0, 0, .3);
 	font-style: normal;
 	font-weight: 700;
 }
 
 .name-hero .name-text {
 	margin: 0 auto;
-  text-align: left;
+	text-align: left;
 	width: 85%;
 }
 
@@ -103,49 +107,49 @@ h1 {
 
 .inner h1 {
 	font-size: 1.75em;
-  margin-left: -10px;
+	margin-left: -10px;
 }
 
 .inner h2 {
-  font-size: 1.4em;
-  margin-bottom: 0;
+	font-size: 1.4em;
+	margin-bottom: 0;
 }
 
 .inner h2 em {
-  font-size: .9em;
-  color: rgba(0,0,0,.5);
+	font-size: .9em;
+	color: rgba(0, 0, 0, .5);
 }
 
 .inner h4 {
-  font-size: 1em;
-  margin: 0;
-  margin-bottom: 10px;
+	font-size: 1em;
+	margin: 0;
+	margin-bottom: 10px;
 }
 
 .inner p {
-	color: rgba(0,0,0,.5);
+	color: rgba(0, 0, 0, .5);
 }
 
 .inner p em {
-	color: rgba(0,0,0,1);
+	color: rgba(0, 0, 0, 1);
 	font-style: normal;
 }
 
 .inner section {
 	margin: 50px auto;
-  text-align: justify;
+	text-align: justify;
 }
 
 .inner ul {
-  width: 95%;
-  margin: auto;
-  padding-left: 5px;
-  text-align: justify;
-  color: rgba(0,0,0,.7);
+	width: 95%;
+	margin: auto;
+	padding-left: 5px;
+	text-align: justify;
+	color: rgba(0, 0, 0, .7);
 }
 
 .skill-set li {
-	background: rgba(0,0,0,.75);
+	background: rgba(0, 0, 0, .75);
 	border-radius: 5px;
 	color: #FFF;
 	display: inline-block;
@@ -156,54 +160,58 @@ h1 {
 }
 
 @media screen and (max-width: 48em) {
-	.right,.left
-	{
+
+	.right,
+	.left {
 		float: none;
-    position: relative !important;
+		position: relative !important;
 		width: 100%;
-    min-height: 500px;
+		min-height: 500px;
 	}
-  .handmade {
-    text-align: center !important;
-    margin-top: 0px !important;
-  }
+
+	.handmade {
+		text-align: center !important;
+		margin-top: 0px !important;
+	}
 }
+
 @media screen and (max-width: 75em) {
-    body {
-      font-size: 16px;
-    }
+	body {
+		font-size: 16px;
+	}
 }
 
 @media screen and (max-width: 60em) {
-    body {
-      font-size: 14px;
-    }
+	body {
+		font-size: 14px;
+	}
 }
 
 .clearfix:after {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+	content: " ";
+	/* Older browser do not support empty content */
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
 }
 
 .handmade {
-  text-align: right;
-  margin-top: 100px;
+	text-align: right;
+	margin-top: 100px;
 }
 
 .handmade em {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 1.25em;
-  margin-left: 5px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.25em;
+	margin-left: 5px;
 }
 
 .contact-info {
-  text-align: left;
-  width: 90%;
+	text-align: left;
+	width: 90%;
 
-  color: rgba(0,0,0,.75);
+	color: rgba(0, 0, 0, .75);
 	font-size: .9em;
 	line-height: 1.5;
 }
@@ -214,22 +222,22 @@ h1 {
 }
 
 .contact-info .with-image {
- display: inline-block;
+	display: inline-block;
 }
 
 .contact-info img {
-  height: 1em;
-  margin-right: 10px;
+	height: 1em;
+	margin-right: 10px;
 }
 
 li em {
-  color: black;
-  font-weight: bold;
+	color: black;
+	font-weight: bold;
 }
 
 .about-me {
-  margin: 1cm auto 5px auto !important;
-	color: rgba(0,0,0,.75);
+	margin: 1cm auto 5px auto !important;
+	color: rgba(0, 0, 0, .75);
 	font-size: .9em;
 	line-height: 1.5;
 	margin: 0 8px 0 0;
@@ -237,49 +245,49 @@ li em {
 }
 
 table {
-  border-collapse: collapse;
-  width: 95%;
-  text-align: center;
-  margin: 10px auto;
+	border-collapse: collapse;
+	width: 95%;
+	text-align: center;
+	margin: 10px auto;
 }
 
 td {
-  width: 20%;
+	width: 20%;
 }
 
 tr:first-of-type {
-  border-bottom: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 tr:not(:first-child) {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 a {
-  color: inherit;
+	color: inherit;
 }
 
 .project {
-  margin: 10px auto;
-  padding-left: 5px;
+	margin: 10px auto;
+	padding-left: 5px;
 }
 
 *::-webkit-scrollbar {
-  background-color: var(--light);
-  width: 6px;
-  margin: 0 2px;
+	background-color: var(--light);
+	width: 6px;
+	margin: 0 2px;
 }
 
 *::-webkit-scrollbar-track {
-  background-color: var(--light);
+	background-color: var(--light);
 }
 
 *::-webkit-scrollbar-thumb {
-  max-height: 20px !important;
-  border-radius: 16px;
-  background-color: #babac0;
+	max-height: 20px !important;
+	border-radius: 16px;
+	background-color: #babac0;
 }
 
 *::-webkit-scrollbar-button {
-  display: none;
+	display: none;
 }
