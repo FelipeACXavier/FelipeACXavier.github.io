@@ -117,7 +117,7 @@ body {
 
 .name-hero h1 {
 	font-family: Open Sans, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	text-align: left;
 }
 
@@ -130,7 +130,7 @@ body {
 .name-hero .name-text {
 	margin: 0 auto;
 	text-align: left;
-	width: 85%;
+	width: 90%;
 }
 
 .inner {
